@@ -1,5 +1,5 @@
 def maxTriangle(triArr):
-    #base case triangle only has one number
+    #triangle only has one number
     if len(triArr) == 1:
         return triArr[0][0]
     #start at second to last row
